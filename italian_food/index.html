@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italian Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/Reey-Regular.otf">
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header sticky-top">
+            <div class="container">
+                <div class="row">
+                    <!-- Navigation -->
+                    <div class="col-12 d-flex justify-content-end my-5">
+                        <nav class="navbar navbar-expand">
+                            <div class="container-fluid">
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav nav-italian">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase text-white fw-bold px-2" aria-current="page" href="#header">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase text-white fw-bold px-2" href="#menu">Menu</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase text-white fw-bold px-2" href="#story">Our story</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase text-white fw-bold px-2" href="#contact">Contact us</a>
+                                        </li>
+                                    </ul>
+                                    <form class="d-flex position-relative w-25 mx-5" role="search">
+                                        <input class="form-control rounded-pill form-header-input" type="search" aria-label="Search">
+                                        <button class="btn position-absolute end-0" type="submit"><i class="fa-solid fa-magnifying-glass fa-2x pe-2 pt-1"></i></button>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+    
+    <!-- Home -->
+    
+        <section class="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-12 home-item">
+                        <a href="#header" class="logo">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                        <h1 class="text-white my-5 display-1 header-itw">Italian Food</h1>
+                        <div class="text-uppercase text-white fw-bold fst-italic fs-4 pt-5 nav-italian">Loremipsum dolor</div>
+                        <a href="#story" class="btn btn-ifw w-75 bg-white text-uppercase text-center text-dark fw-bold fs-4 mt-5 mb-4">Read more</a>
+                        <div class="text-white fst-italic fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa unde dolorem iure aut dolorum aliquam deserunt? Sapiente, odit.</div>
+                    </div>
+    
+                    <div class="col-lg-7 col-md-12 position-relative d-flex justify-content-center flex-column">
+                        <img src="img/headerBigPlate.png" alt="Delicious pasta" class="img-fluid pb-5 ps-5 ms-5">
+                        <img src="img/headerSmallPlate.png" alt="Delicious souce" class="img-fluid position-absolute bottom-0 start-0">
+                        <img src="img/headerLeaves.png" alt="Leaves" class="img-fluid position-absolute img-position1">
+                    </div>
+                    
+                </div>
+            </div>
+        </section>    
+    </div>
+    
+          
+     
+
+    <!-- Main -->
+    <main>
+        <!-- Menu slider-menu -->
+        <section class="slider" id="menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 justify-content-around">
+                        <h2 class="text-center text-capitalize text-wrap text-dark display-2 main-header-slider">Lorem ipsum dolor</h2>
+                        <p class="text-center fs-4 lh-sm m-auto" style="width:43rem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo necessitatibus quaerat alias ipsam autem.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div id="myCarousel" class="carousel carousel-dark slide carousel-menu" data-bs-ride="carousel">
+                            <div class="carousel-indicators mb-3">
+                                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <!-- First slider -->
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <div class="carousel-items-container d-flex justify-content-center align-items-start">
+                                        <div class="carousel-items-slider">
+                                            <img src="img/sliderImgFirst.png" class="d-block w-100" alt="The Pasta with Tomatos">
+                                            <h5 class="fw-bold fs-3 mb-xl-3 mb-lg-3 mx-5">Lorem ipsum</h5>
+                                            <p class="fs-5 mx-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        </div>
+                                        <div class="carousel-items-slider">
+                                            <img src="img/sliderImgSecond.png" class="d-block w-100 h-100" alt="Carbonara">
+                                            <h5 class="fw-bold fs-3 mb-xl-3 mb-lg-3 mx-5">Lorem ipsum</h5>
+                                            <p class="fs-5 mx-5">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                        </div>
+                                        <div class="carousel-items-slider">
+                                            <img src="img/sliderImgThird.png" class="d-block w-100" alt="The Pasta with Olives">
+                                            <h5 class="fw-bold fs-3 mb-xl-3 mb-lg-3 mx-5">Lorem ipsum</h5>
+                                            <p class="fs-5 mx-5">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Second slider -->
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <div class="carousel-items-container d-flex justify-content-center align-items-center">
+                                        <div class="carousel-items-slider">
+                                            <img src="img/sliderImgThird.png" class="d-block w-100" alt="The Pasta with Olives">
+                                            <h5 class="fw-bold fs-3 mb-xl-3 mb-lg-3 mx-5">Lorem ipsum</h5>
+                                            <p class="fs-5 mx-5">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                        </div>
+                                        <div class="carousel-items-slider">
+                                            <img src="img/sliderImgFirst.png" class="d-block w-100" alt="The Pasta with Tomatos">
+                                            <h5 class="fw-bold fs-3 mb-xl-3 mb-lg-3 mx-5">Lorem ipsum</h5>
+                                            <p class="fs-5 mx-5">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                        </div>
+                                        <div class="carousel-items-slider">
+                                        <img src="img/sliderImgSecond.png" class="d-block w-100" alt="Carbonara">
+                                        <h5 class="fw-bold fs-3 mb-xl-3 mb-lg-3 mx-5">Lorem ipsum</h5>
+                                        <p class="fs-5 mx-5">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Third slider -->
+                                <div class="carousel-item">
+                                    <div class="carousel-items-container d-flex justify-content-center align-items-center">
+                                        <div class="carousel-items-slider">
+                                            <img src="img/sliderImgSecond.png" class="d-block w-100" alt="Carbonara">
+                                            <h5 class="fw-bold fs-3 mb-xl-3 mb-lg-3 mx-5">Lorem ipsum</h5>
+                                            <p class="fs-5 mx-5">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                        </div>
+                                        <div class="carousel-items-slider">
+                                            <img src="img/sliderImgThird.png" class="d-block w-100" alt="The Pasta with Olives">
+                                            <h5 class="fw-bold fs-3 mb-xl-3 mb-lg-3 mx-5">Lorem ipsum</h5>
+                                            <p class="fs-5 mx-5">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                        </div>
+                                        <div class="carousel-items-slider">
+                                            <img src="img/sliderImgFirst.png" class="d-block w-100" alt="The Pasta with Tomatos">
+                                            <h5 class="fw-bold fs-3 mb-xl-3 mb-lg-3 mx-5">Lorem ipsum</h5>
+                                            <p class="fs-5 mx-5">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                    
+
+                <div class="row">
+                    <div class="col-12 mb-5">
+                        <a href="#slider" class="btn btn-ifd bg-black rounded-pill fw-bolder text-uppercase text-center text-white">Show more</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Section more information -->
+        <section class="more-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-white text-center text-capitalize display-2 main-header">Lorem ipsum dolor</h3>
+                    </div>
+                </div>
+                <div class="row gx-5 mx-5">
+                    <div class="col">
+                        <p class="text-white more-info-text lh-base p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo expedita, inventore rem earum blanditiis ad. Tenetur natus esse perspiciatis quod, placeat ad autem? Corrupti consequuntur cupiditate minima impedit modi ullam tenetur consectetur, nesciunt voluptatum odit eius repudiandae.</p>
+                    </div>
+                    <div class="col">
+                        <p class="text-white more-info-text lh-base p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque iusto nihil exercitationem vero alias maiores quos, qui nostrum aut eius tenetur vitae et earum ratione sit fugit dolores delectus quisquam eveniet corporis ut dolorum sint quis. Itaque.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 mt-5">
+                        <a href="#" class="btn btn-ifw bg-white rounded-4 fw-bold fs-4 text-uppercase text-center text-dark mb-5 mx-auto">More info</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!--  Section promo and discount-->
+        <section class="promo">
+            <div class="container">
+                <!-- First card -->
+                <div class="row mt-5">
+                    <div class="card mb-3 border-0 bg-transparent">
+                        <div class="row g-0">
+                            <div class="col-lg-6 col-md-12">
+                                <img src="img/promoImgFirst.png" class="img-fluid" alt="The Pasta with Olives">
+                            </div>
+                            <div class="col-lg-6 col-md-12 align-self-center">
+                                <div class="card-body">
+                                    <h5 class="card-title display-4 fw-bold">Discount up to 50% All Excursions</h5>
+                                    <p class="card-text my-5 fs-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, ipsam! Accusantium, labore architecto. Cum vel doloremque inventore dolorem nemo aliquam?</p>
+                                    <a href="#" class="btn btn-dark btn-ifd rounded-pill  fw-bold text-center text-uppercase m-0 nav-italian m-md-auto">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second card -->
+                <div class="row mt-5">
+                    <div class="card mb-3 border-0 bg-transparent">
+                        <div class="row g-0">
+                            <div class="col-lg-6 col-md-12 align-self-center">
+                                <div class="card-body">
+                                    <h5 class="card-title display-4 fw-bold">January's Promo: Buy 1 Get 1 Free</h5>
+                                    <p class="card-text fs-3 my-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, ipsam! Accusantium, labore architecto. Cum vel doloremque inventore dolorem nemo aliquam?</p>
+                                    <a href="#" class="btn btn-dark btn-ifd rounded-pill fw-bold text-center text-uppercase m-0 nav-italian m-md-auto">Read more</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <img src="img/promoImgSecond.png" class="img-fluid" alt="Carbonara">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Section pizza -->
+        <section class="pizza">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="display-4 text-white text-center text-capitalize lh-sm pizza-header">Lorem Ipsum Dolor Sit Amer</h5>
+                        <p class=" text-white text-center fs-4 lh-sm main-text-monserrat mx-auto" style="max-width:44rem;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt veniam sint minima ad rerum iure praesentium.</p>
+                        <div class="text-white text-center mx-auto mt-5 mb-4 line"></div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="pizza-img position-relative">
+                                <img src="img/doubleLeaves.png" alt="The Leaves" class="img-fluid position-absolute img-position4">
+                                <img src="img/pizzaPiece.png" alt="The Piece of the Pizza" class="img-fluid position-absolute img-position6">
+                                <img src="img/pizzaHole.png" alt="The Pizza" class="img-fluid pizza-img-hole">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Section our-story -->
+        <section class="our-story" id="story">
+            <div class="container">
+                <div class="row g-1">
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="card border-0 bg-transparent">
+                            <div class="card-body">
+                            <h5 class="card-title fs-1 lh-1 mb-4 main-style-header">Lorem Insupm</h5>
+                            <p class="card-text fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptas beatae quod aperiam hic in omnis?</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="card border-0 bg-transparent">
+                        <div class="card-body">
+                            <h5 class="card-title fs-1 lh-1 mb-lg-4 mb-sm-2 main-style-header">Lorem Ipsum</h5>
+                            <p class="card-text fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam maiores, neque optio excepturi voluptatem culpa voluptates!</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="card border-0 bg-transparent">
+                            <div class="card-body">
+                                <h5 class="card-title fs-1 lh-1 mb-lg-4  mb-sm-2 main-style-header">Lorem Insupm</h5>
+                                <p class="card-text fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consectetur rerum reiciendis nesciunt aliquam odio perferendis, blanditiis eum unde in distinctio sint voluptatum similique et! Similique corporis dolor pariatur impedit?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-center  fw-semibold mx-auto our-story-item-text" style="max-width: 50rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quos ab nisi dicta, ut fuga enim debitis suscipit architecto similique illum blanditiis sunt sit voluptates.</p>
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+                    <div class="col-12" >
+                        <p class="text-center mx-auto fs-5 fw-bold" style="max-width: 8.4rem;">Lorem Insum</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="row contact-main-itw">
+                    <div class="col-12 d-flex flex-column align-items-center position-relative">
+                        <img src="img/imgDoubleleavesTitle.png" alt="The Leaves" class="img-fluid position-absolute img-position5">
+                        <h3 class="text-center text-white fw-bold display-2 mb-5 pb-3">Title Here</h3>
+                        <p class="text-center text-white fs-3 mx-auto" style="max-width:55rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cumque perspiciatis tempore temporibus et!</p>
+                        
+                        <div class="input-group mb-3 w-50 contact-input-itw mt-5 pt-3">
+                            <input type="text" id="name" name="name" class="form-control fs-4 contact-input-itw rounded-pill" placeholder="Your Name" aria-label="names" aria-describedby="button-name" minlength="4" size="15" required>
+                            <button class="btn btn-secondary text-uppercase fw-bold fs-4 rounded-pill position-absolute end-0" type="button" id="button-phone">Subscribe</button>
+                        </div>
+                        
+                        <div class="input-group mb-3 w-50 contact-input-itw mt-5 pt-3">
+                            <input type="email" id="email" name="email" class="form-control fs-4 contact-input-itw rounded-pill" placeholder="Your Email" aria-label="emails" aria-describedby="button-email" pattern=".+@globex\.com" size="30" required>
+                            <button class="btn btn-secondary text-uppercase fw-bold fs-4 rounded-pill position-absolute end-0" type="button" id="button-email">Subscribe</button>
+                        </div>
+
+                        <div class="input-group mb-3 w-50 contact-input-itw mt-5 pt-3">
+                            <input type="tel" id="tel" name="tel" class="form-control fs-4 contact-input-itw rounded-pill" placeholder="Your Phone" aria-label="phones" aria-describedby="button-phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            <button class="btn btn-secondary text-uppercase fw-bold fs-4 rounded-pill position-absolute end-0" type="button" id="button-phone">Subscribe</button>
+                        </div>
+                        
+                    </div>
+               
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row footer-main-text-itw">
+                <div class="col-lg-5 col-md-12 me-lg-5 pe-lg-5 me-md-0 pe-md-0 mt-md-3">
+                    <h5 class="fs-4">Title Here</h5>
+                    <p class="fs-5 my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, suscipit aperiam tenetur quae consequuntur laboriosam ea totam laborum corporis sunt, numquam amet voluptas enim inventore!</p>
+                    <div class="footer-contact-brand">
+                        <a href="https://www.instagram.com/" target="_blank" class="btn btn-outline-light btn-dark rounded-circle me-3"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank" class="btn btn-outline-light btn-dark rounded-circle me-3"><i class="fa-brands fa-facebook-f fa-2x px-1"></i></a>
+                        <a href="https://twitter.com/" target="_blank" class="btn btn-outline-light btn-dark rounded-circle me-3"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                        <a href="https://www.whatsapp.com/" target="_blank" class="btn btn-outline-light btn-dark rounded-circle me-3"><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+
+                    </div>
+                </div>
+                <div class="col-auto mt-md-3">
+                    <p class="ms-3 fs-4">About</p>
+                    <div class="list-group fs-5 border-0">
+                        <a href="#" target="_blank" class="list-group-item list-group-item-action border-0 text-start">History</a>
+                        <a href="#" target="_blank" class="list-group-item list-group-item-action border-0">Our Team</a>
+                        <a href="#" target="_blank" class="list-group-item list-group-item-action border-0">Breand Guidelines</a>
+                        <a href="#" target="_blank" class="list-group-item list-group-item-action border-0">Terms & Condition</a>
+                        <a href="#" target="_blank" class="list-group-item list-group-item-action border-0">Privacy Policy</a>
+                    </div>
+                </div>
+                <div class="col-auto mt-md-3">
+                    <p class="ms-3 fs-4">Services</p>
+                    <div class="list-group fs-5 border-0">
+                        <a href="#" target="_blank" class="list-group-item list-group-item-action border-0">How to Order</a>
+                        <a href="#" target="_blank" class="list-group-item list-group-item-action border-0">Our Product</a>
+                        <a href="#" target="_blank" class="list-group-item list-group-item-action border-0">Order Status</a>
+                        <a href="#" target="_blank" class="list-group-item list-group-item-action border-0">Promo</a>
+                        <a href="#" target="_blank" class="list-group-item list-group-item-action border-0">Payment Method</a>
+                    </div>
+                </div>
+                <div class="col-auto mt-md-3">
+                    <p class="ms-3 fs-4">Other</p>
+                    <div class="list-group fs-5 border-0">
+                        <a href="#contact" target="_blank" class="list-group-item list-group-item-action border-0">Contact Us </a>
+                        <a href="#" target="_blank" class="list-group-item list-group-item-action border-0">Help</a>
+                        <a href="#" target="_blank" class="list-group-item list-group-item-action border-0">Privacy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
