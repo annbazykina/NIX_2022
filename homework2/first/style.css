@@ -1,0 +1,88 @@
+.container {
+    width: 100%;
+}
+
+.first-container {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.first-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100px;
+    height: 120px; */
+    width: 20%;
+    /* flex: 1 1 150px; */
+    height: 120px;
+    font-size: 2em;
+    background-color: #FFA400;
+    border: 1px solid #000;
+    margin-left: 80px;
+    margin-right: 10px;
+}
+
+.second-container {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.second-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100px;
+    height: 120px; */
+    /* flex: 1 1 150px; */
+    width: 20%;
+    height: 120px;
+    font-size: 24px;
+    background-color: #EE81EE;
+    border: 1px solid #000;
+    margin-right: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.third-container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.third-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* width: 100px;
+    height: 120px; */
+    width: 20%;
+    height: 120px;
+    font-size: 24px;
+    background-color: #90EE8F;
+    border: 1px solid #000;
+    margin: 10px 0;
+}
+
+.fourth-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fourth-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 180px;
+    height: 120px; */
+    width: 30%;
+    height: 120px;
+    font-size: 24px;
+    background-color: #6495EC;
+    border: 1px solid #000;
+}
